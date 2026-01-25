@@ -1,4 +1,4 @@
-🏨 Hotel Analytics Dashboard – Power BI Visualization
+🏨 Milestone 2 – Hotel Analytics Dashboard - Power BI Visualization
 
 📌 Project Overview
 This project presents an **interactive Hotel Analytics Dashboard** built using **Power BI**. The dashboard provides insights into hotel bookings, revenue, occupancy, guest behavior, and seasonal trends. It helps stakeholders understand performance across booking channels, guest types, countries, and seasons for better data‑driven decision‑making.
