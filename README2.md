@@ -77,6 +77,40 @@ Purpose: Track overall hotel performance.
 * Revenue by Guest Country
 * Customer Category vs Guest Type Analysis
 
+**DAX Measures & Calculated Columns**
+
+-> These DAX measures and calculated columns are actively used in the dashboard visuals, KPI cards, charts, and slicers.
+
+The following DAX expressions were used to create key metrics and classifications in the dashboard:
+
+1️⃣ Customer Type (Calculated Column)
+Customers Type = 
+SWITCH(
+    Fact_Bookings[Customer_category],
+    1, "First-Time Guest",
+    2, "Loyal Guest",
+    3, "High Spender",
+    "Unknown"
+)
+
+Purpose: Categorizes customers into meaningful business segments for guest analysis.
+
+2️⃣ Occupancy Percentage (Measure)
+Occupancy % = 
+DIVIDE(
+    SUM(Fact_Bookings[Reserved_Rooms]),
+    SUM(Fact_Bookings[Available_Rooms]),
+    0
+)
+
+Purpose: Calculates hotel occupancy rate based on reserved and available rooms.
+
+3️⃣ Total Bookings (Measure)
+Total Bookings = 
+COUNTROWS(Fact_Bookings)
+
+Purpose: Returns the total number of bookings for KPI cards and trend analysis.
+
  📌 Conclusion
 This Hotel Analytics Dashboard provides a comprehensive view of hotel operations, enabling management to track performance, identify trends, and make informed strategic decisions using interactive and visually rich reports.
 
