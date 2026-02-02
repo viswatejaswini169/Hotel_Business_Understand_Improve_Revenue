@@ -64,6 +64,7 @@ yhat – predicted bookings
 The forecast output was imported back into Power BI as the Forecast table
 
 🧮 DAX Measures Used
+
 🔹 Total Bookings
 Total Bookings = 
 SUM('data'[Sum of Bookings])
