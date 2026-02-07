@@ -1,51 +1,105 @@
-Milestone 1 – Hotel Bookings and Revenue Analysis
-Project Overview
-This project analyzes hotel booking and revenue data using Power BI to understand booking trends, revenue patterns, and key business drivers. The dashboard provides insights that help improve decision-making and optimize hotel revenue.
+# Hotel Revenue Analysis
 
-Dataset Description
-File: hotel_data.csv
-The dataset contains information related to:
-Hotel bookings
-Revenue and room revenue
-Booking channels
-Seasons and dates
-Check-ins and check-outs
-Room types and nights stayed
-Tools Used
-Power BI Desktop
-Power Query for data cleaning and transformation
-Basic DAX measures for aggregation
-Data Modeling
-Fact Table: Fact_Bookings
-Dimension Tables:
-Date dimension
-Customer dimension
-Hotel dimension
-Room dimension
-Relationships were created using appropriate keys to enable accurate analysis across all visuals.
+##  Project Overview
 
-** Key Visualizations
+This project focuses on analyzing **hotel revenue and booking performance** using **Power BI**. The dashboard provides insights into seasonal revenue trends, guest behavior, booking channels, occupancy, and cancellations. These insights support data-driven decisions to improve revenue management and operational efficiency.
 
-1. Total Revenue Trend
-Line chart showing Sum of Total Revenue by Date
-Helps identify revenue growth and decline over time
-2. Bookings by Season
-Bar chart showing Sum of Bookings by Season
-Highlights seasonal demand patterns
-3. Bookings by Booking Channel
-Donut chart displaying booking distribution across channels
-Identifies dominant booking sources
-4. Room Revenue by Season and Room Type
-Bar chart showing Sum of Room Revenue by Season
-Helps compare revenue contribution of different room types
-5. Check-ins and Check-outs Analysis
-Visual comparison of check-ins and check-outs by date
-Useful for understanding occupancy flow
-Key Insights
-High seasons generate significantly higher bookings and revenue
-Certain booking channels contribute the majority of reservations
-Premium room types generate higher room revenue
-Revenue trends fluctuate over time, indicating demand variability
-Check-in and check-out patterns align closely with booking volumes
-Conclusion
-The dashboard provides a clear overview of hotel performance by analyzing bookings, revenue, and customer behavior. These insights can help hotel management improve pricing strategies, optimize room allocation, and focus on high-performing booking channels.
+---
+
+## 📂 Dataset Description
+
+**File Name:** `hotel_data.csv`
+
+The dataset includes aggregated hotel-level information related to:
+
+* Total revenue and RevPAR
+* Seasons and dates
+* Guest type and guest country
+* Booking channels
+* Check-ins and check-outs
+* Occupancy rate and cancellations
+
+The data is aggregated by date and used to derive trends and comparisons across multiple business dimensions.
+
+---
+
+## 🛠 Tools Used
+
+* **Power BI Desktop** – for building interactive dashboards
+* **Power Query** – for data cleaning, transformation, and derived columns
+* **DAX** – for calculating revenue, RevPAR, occupancy, and aggregation measures
+
+---
+
+## 🧩 Data Modeling
+
+A **Star Schema** model was implemented for efficient analysis and accurate filtering.
+
+### 📊 Fact Table
+
+**Fact_Bookings**
+
+* Stores numerical measures such as revenue, check-ins, check-outs, occupancy rate, cancellations, and RevPAR
+
+### 🗂 Dimension Tables
+
+* **Dim_Date** – Date, season, and time-based attributes
+* **Dim_Customer** – Guest type and guest country
+* **Dim_Room** – Room-related and occupancy attributes
+* **Dim_Hotel** – Logical hotel/branch categorization
+
+### 🔗 Relationships
+
+* One-to-many (1:*) relationships connect all dimension tables to the fact table
+* This structure enables accurate slicing and filtering across all visuals
+
+---
+
+## 📈 Key Visualizations
+
+### 1. Revenue by Season
+
+* **Bar Chart**: Sum of Total Revenue by Season
+* Shows how revenue varies across Winter, Summer, and Spring
+
+### 2. Revenue Trend by Season
+
+* **Line Chart**: Sum of Revenue by Season
+* Highlights the overall decline or growth pattern across seasons
+
+### 3. RevPAR by Guest Type
+
+* **Donut Chart**: Sum of RevPAR by Guest Type (Leisure vs Business)
+* Helps understand which guest segment contributes more to room performance
+
+### 4. Check-ins & Check-outs by Booking Channel
+
+* **Donut Chart**: Distribution of Check-ins and Check-outs across booking channels (OTA, Direct, etc.)
+* Identifies dominant booking sources
+
+### 5. Revenue by Guest Country
+
+* **Bar Chart**: Sum of Revenue by Guest Country
+* Highlights top revenue-contributing countries
+
+### 6. Occupancy Rate and Cancellations Over Time
+
+* **Line Chart**: Occupancy Rate and Cancellations by Date
+* Helps analyze demand stability and cancellation behavior over time
+
+## Key Insights
+
+* Winter season generates the highest total revenue
+* Leisure guests contribute a higher share of RevPAR compared to business guests
+* OTA and Direct channels account for most check-ins and check-outs
+* The USA and European countries are major revenue contributors
+* Occupancy rate trends are stable, while cancellations show noticeable fluctuations
+
+##  Conclusion
+
+The Hotel Revenue Analysis dashboard provides a comprehensive view of revenue performance, guest behavior, and operational trends. By analyzing seasonality, guest segments, booking channels, and occupancy patterns, hotel management can:
+
+* Optimize pricing and revenue strategies
+* Focus on high-performing guest segments and markets
+* Improve channel strategy and reduce cancellations
+Overall, the project demonstrates how Power BI can be effectively used to transform raw hotel data into meaningful business insights.
