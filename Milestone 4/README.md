@@ -1,4 +1,4 @@
-                ***Revenue Strategy Insights Dashboard with pricing insights and upsell recommendations***
+***Revenue Strategy Insights Dashboard with pricing insights and upsell recommendations***
 
 📌 Project Overview
 
@@ -40,14 +40,14 @@ These KPIs provide a high-level summary of overall revenue performance.
 
 Room categories are grouped into pricing tiers using the following business logic:
 
-Room Category Tier =
-SWITCH(
-    TRUE(),
-    'Fact Bookings'[Room_category] IN {"Standard","Basic","Classic"}, "Economy",
-    'Fact Bookings'[Room_category] IN {"Deluxe","Executive"}, "Premium",
-    'Fact Bookings'[Room_category] IN {"Suite","Presidential","Luxury Suite"}, "Luxury",
-    "Economy"
-)
+          Room Category Tier =
+                           SWITCH(
+                                  TRUE(),
+                                  'Fact Bookings'[Room_category] IN {"Standard","Basic","Classic"}, "Economy",
+                                  'Fact Bookings'[Room_category] IN {"Deluxe","Executive"}, "Premium",
+                                  'Fact Bookings'[Room_category] IN {"Suite","Presidential","Luxury Suite"}, "Luxury",
+                                  "Economy"
+                          )
 
 *Tier Explanation
 
