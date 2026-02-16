@@ -1,4 +1,4 @@
-Revenue Strategy Insights Dashboard
+***Revenue Strategy Insights Dashboard with pricing insights and upsell recommendations***
 
 📌 Project Overview
 
