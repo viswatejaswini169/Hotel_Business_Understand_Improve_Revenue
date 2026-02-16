@@ -49,31 +49,31 @@ SWITCH(
     "Economy"
 )
 
-Tier Explanation
+*Tier Explanation
 
-Economy Tier
+-> Economy Tier
 
-Budget-friendly rooms
+-> Budget-friendly rooms
 
-High booking volume
+-> High booking volume
 
-Lower ADR
+-> Lower ADR
 
-Premium Tier
+-> Premium Tier
 
-Mid-level pricing
+-> Mid-level pricing
 
-Balanced revenue contribution
+-> Balanced revenue contribution
 
-Strong upsell potential
+-> Strong upsell potential
 
-Luxury Tier
+-> Luxury Tier
 
-High ADR
+-> High ADR
 
-Lower booking count
+-> Lower booking count
 
-High per-booking revenue
+-> High per-booking revenue
 
 This classification enables comparison of revenue contribution by tier.
 
@@ -81,99 +81,99 @@ This classification enables comparison of revenue contribution by tier.
 
 Upsell opportunities were identified using:
 
-Booking Volume vs Revenue Comparison
+*Booking Volume vs Revenue Comparison
 
-Economy has high bookings but lower revenue per booking.
+- Economy has high bookings but lower revenue per booking.
 
-Premium shows strong revenue potential.
+- Premium shows strong revenue potential.
 
-ADR Analysis
+*ADR Analysis
 
-Higher ADR tiers generate more revenue per guest.
+- Higher ADR tiers generate more revenue per guest.
 
-Guests booking Economy tier can be targeted for Premium upgrades.
+- Guests booking Economy tier can be targeted for Premium upgrades.
 
-Cancellation Patterns
+*Cancellation Patterns
 
-High cancellation rates in specific tiers indicate pricing sensitivity.
+- High cancellation rates in specific tiers indicate pricing sensitivity.
 
-Discounted upgrade offers can reduce cancellations.
+- Discounted upgrade offers can reduce cancellations.
 
-Channel Performance
+*Channel Performance
 
-OTA channels show strong volume.
+- OTA channels show strong volume.
 
-Direct channel promotions can encourage premium upgrades.
+- Direct channel promotions can encourage premium upgrades.
 
 🎯 Upsell Strategy
 
-Offer discounted upgrades from Economy → Premium during check-in.
+- Offer discounted upgrades from Economy → Premium during check-in.
 
-Bundle Premium rooms with complimentary services.
+- Bundle Premium rooms with complimentary services.
 
-Provide loyalty-based upgrades for repeat customers.
+- Provide loyalty-based upgrades for repeat customers.
 
 🌤 Seasonal Promotion Insights
 
 The dashboard analyzes revenue across:
 
-Winter
+- Winter
 
-Summer
+- Summer
 
-Spring
+- Spring
 
-Key Observations:
+**Key Observations:**
 
-Winter shows highest revenue contribution
+-> Winter shows highest revenue contribution
 
-Summer shows moderate performance
+-> Summer shows moderate performance
 
-Spring shows relatively lower revenue
+-> Spring shows relatively lower revenue
 
-Promotion Strategy:
+**Promotion Strategy:**
 
-Offer targeted discounts during low seasons (Spring).
+-> Offer targeted discounts during low seasons (Spring).
 
-Increase ADR during peak season (Winter).
+-> Increase ADR during peak season (Winter).
 
-Launch early-bird summer campaigns.
+-> Launch early-bird summer campaigns.
 
-Introduce seasonal packages (family, honeymoon, festival offers).
+-> Introduce seasonal packages (family, honeymoon, festival offers).
 
 📊 Revenue Performance Insights
 
-Revenue by Month
+*Revenue by Month
 
-January and July show high revenue peaks.
+- January and July show high revenue peaks.
 
-March shows a noticeable dip.
+- March shows a noticeable dip.
 
-Seasonal alignment impacts performance.
+- Seasonal alignment impacts performance.
 
-Revenue by Room Tier
+*Revenue by Room Tier
 
-Premium tier contributes significantly to revenue.
+- Premium tier contributes significantly to revenue.
 
-Economy has volume advantage.
+- Economy has volume advantage.
 
-Luxury tier boosts overall ADR.
+- Luxury tier boosts overall ADR.
 
-Revenue by Country
+- Revenue by Country
 
-Major contribution from:
+*Major contribution from:
 
-USA
+- USA
 
-Germany
+- Germany
 
-UK
+- UK
 
-Spain
+- Spain
 
-France
+- France
 
-Italy
+- Italy
 
 This supports geo-targeted marketing campaigns.
 
@@ -181,79 +181,59 @@ This supports geo-targeted marketing campaigns.
 
 1️⃣ Optimize Pricing Strategy
 
-Dynamic pricing during peak season.
+- Dynamic pricing during peak season.
 
-Increase ADR for Premium tier gradually.
+- Increase ADR for Premium tier gradually.
 
-Implement demand-based pricing.
+- Implement demand-based pricing.
 
 2️⃣ Reduce Cancellations
 
-Flexible rescheduling options.
+- Flexible rescheduling options.
 
-Incentives for non-refundable bookings.
+- Incentives for non-refundable bookings.
 
-Offer partial upgrade discounts instead of refunds.
+- Offer partial upgrade discounts instead of refunds.
 
 3️⃣ Improve Occupancy Rate
 
-Bundle packages (room + spa + dining).
+- Bundle packages (room + spa + dining).
 
-Weekend getaway promotions.
+- Weekend getaway promotions.
 
-Corporate booking tie-ups.
+- Corporate booking tie-ups.
 
 4️⃣ Channel Optimization
 
-Promote direct bookings via website discounts.
+- Promote direct bookings via website discounts.
 
-Reduce OTA dependency.
+- Reduce OTA dependency.
 
-Loyalty-based booking incentives.
+- Loyalty-based booking incentives.
 
 5️⃣ Focus on High-Value Segments
 
-Target repeat guests.
+- Target repeat guests.
 
-Promote long-stay discounts.
+- Promote long-stay discounts.
 
-Luxury experience campaigns.
+- Luxury experience campaigns.
 
 📈 Business Impact of Proposed Strategies
 
 If implemented, these strategies can:
 
-Increase overall revenue by improving ADR
+* Increase overall revenue by improving ADR
 
-Improve occupancy from 28% to higher utilization
+* Improve occupancy from 28% to higher utilization
 
-Reduce cancellation losses
+* Reduce cancellation losses
 
-Improve RevPAR
+* Improve RevPAR
 
-Enhance customer lifetime value
+* Enhance customer lifetime value
 
-Strengthen competitive positioning
-
-Expected impact:
-
-📊 Higher profitability
-
-📈 Sustainable revenue growth
-
-💡 Smarter pricing decisions
-
-🎯 Better upsell conversion rates
-
-🛠 Tools Used
-
-Power BI (Dashboard & Data Modeling)
-
-DAX (Calculated Columns & Measures)
-
-Python (Forecasting – Prophet Model)
-
-Data Cleaning & Transformation (Power Query)
+* Strengthen competitive positioning
 
 📌 Conclusion
 
@@ -261,10 +241,10 @@ The Revenue Strategy Insights Dashboard transforms booking data into strategic d
 
 By combining pricing tier logic, seasonal analysis, upsell identification, and revenue KPIs, the dashboard enables management to:
 
-Optimize pricing
+*Optimize pricing
 
-Improve occupancy
+*Improve occupancy
 
-Increase profitability
+*Increase profitability
 
-Strengthen long-term revenue growth
+*Strengthen long-term revenue growth
