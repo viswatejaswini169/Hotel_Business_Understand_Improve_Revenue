@@ -1,39 +1,41 @@
 Revenue Strategy Insights Dashboard
+
 📌 Project Overview
 
 This project presents a Revenue Strategy Insights Dashboard built using Power BI to analyze hotel booking, pricing tiers, seasonal performance, and revenue optimization opportunities.
 
 The dashboard provides actionable insights into:
 
-Pricing tier performance
+**Pricing tier performance**
 
-Upsell opportunities
+-> Upsell opportunities
 
-Seasonal revenue variations
+-> Seasonal revenue variations
 
-Booking and cancellation patterns
+-> Booking and cancellation patterns
 
-Revenue improvement strategies
+-> Revenue improvement strategies
 
 The objective is to support data-driven pricing and revenue decisions for hotel management.
 
-📊 Dashboard KPIs
+**Dashboard KPIs**
 
 The dashboard includes the following key performance indicators:
 
-Total Revenue: 6M
+-> Total Revenue: 6M
 
-Average Daily Rate (ADR): 14K
+-> Average Daily Rate (ADR): 14K
 
-Occupancy Rate: 28%
+-> Occupancy Rate: 28%
 
-RevPAR: 10.19K
+-> RevPAR: 10.19K
 
-Total Rooms Sold: 985
+-> Total Rooms Sold: 985
 
 These KPIs provide a high-level summary of overall revenue performance.
 
-💰 Pricing Tier Logic Used
+**Pricing Tier Logic Used**
+
  Room Category Tier Classification
 
 Room categories are grouped into pricing tiers using the following business logic:
@@ -140,6 +142,7 @@ Launch early-bird summer campaigns.
 Introduce seasonal packages (family, honeymoon, festival offers).
 
 📊 Revenue Performance Insights
+
 Revenue by Month
 
 January and July show high revenue peaks.
@@ -175,6 +178,7 @@ Italy
 This supports geo-targeted marketing campaigns.
 
 🚀 Key Revenue Improvement Recommendations
+
 1️⃣ Optimize Pricing Strategy
 
 Dynamic pricing during peak season.
