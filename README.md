@@ -1,4 +1,4 @@
-#🏨 HotelRevAI: AI-Driven Revenue Analysis for Hotels
+#🏨 HotelRevAI: AI-Driven Revenue Analysis for Hotels#
 
 #📌 Project Overview
 This project leverages data modeling, advanced analytics, and AI-powered forecasting to analyze hotel booking patterns, guest behavior, upselling opportunities, and revenue performance. Interactive dashboards and visual reports translate complex data into actionable business insights for the hospitality industry.
